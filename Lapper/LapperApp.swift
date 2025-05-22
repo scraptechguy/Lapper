@@ -11,7 +11,8 @@ import SwiftUI
 struct LapperApp: App {
     var body: some Scene {
         WindowGroup {
-            ContentView()
+            LaunchView()
+                .environmentObject(ContentModel())
         }
     }
 }

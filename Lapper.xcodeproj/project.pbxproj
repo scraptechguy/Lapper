@@ -35,16 +35,6 @@
 			path = Lapper;
 			sourceTree = "<group>";
 		};
-		9039C5982DDF237D007C2C82 /* LapperTests */ = {
-			isa = PBXFileSystemSynchronizedRootGroup;
-			path = LapperTests;
-			sourceTree = "<group>";
-		};
-		9039C5A22DDF237D007C2C82 /* LapperUITests */ = {
-			isa = PBXFileSystemSynchronizedRootGroup;
-			path = LapperUITests;
-			sourceTree = "<group>";
-		};
 /* End PBXFileSystemSynchronizedRootGroup section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -76,8 +66,6 @@
 			isa = PBXGroup;
 			children = (
 				9039C5862DDF237C007C2C82 /* Lapper */,
-				9039C5982DDF237D007C2C82 /* LapperTests */,
-				9039C5A22DDF237D007C2C82 /* LapperUITests */,
 				9039C5852DDF237C007C2C82 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -130,9 +118,6 @@
 			dependencies = (
 				9039C5972DDF237D007C2C82 /* PBXTargetDependency */,
 			);
-			fileSystemSynchronizedGroups = (
-				9039C5982DDF237D007C2C82 /* LapperTests */,
-			);
 			name = LapperTests;
 			packageProductDependencies = (
 			);
@@ -152,9 +137,6 @@
 			);
 			dependencies = (
 				9039C5A12DDF237D007C2C82 /* PBXTargetDependency */,
-			);
-			fileSystemSynchronizedGroups = (
-				9039C5A22DDF237D007C2C82 /* LapperUITests */,
 			);
 			name = LapperUITests;
 			packageProductDependencies = (
